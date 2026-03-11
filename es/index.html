@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGardening - Consejos, Trucos y Guias de Jardineria</title>
+    <meta name="description" content="iGardening: tu guia completa para la jardineria. Trucos, consejos practicos, guias para huerto, plantas de interior, flores y mucho mas.">
+    <meta name="keywords" content="jardineria, huerto, plantas interior, flores, trucos jardineria, guia jardineria">
+    <meta property="og:title" content="iGardening - Consejos, Trucos y Guias de Jardineria">
+    <meta property="og:description" content="Tu guia completa para un jardin esplendido. Unete a nuestra comunidad de apasionados.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://igardening.co/es/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1200&h=630&fit=crop">
+    <link rel="canonical" href="https://igardening.co/es/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68PN353H4C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-68PN353H4C');
+    </script>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Bienvenido a iGardening - Tu jardin empieza aqui</span>
+            <div class="top-bar-right">
+                <div class="lang-switcher">
+                    <a href="/en/" title="English">EN</a>
+                    <a href="/" title="Français">FR</a>
+                    <a href="/es/" class="active-lang" title="Español">ES</a>
+                </div>
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a>
+                <a href="pages/contact.html">Contacto</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">&#127793;</span>
+                <span class="logo-text">i<strong>Gardening</strong></span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="index.html" class="active">Inicio</a>
+                <div class="nav-dropdown">
+                    <a href="pages/potager.html">Huerto y Verduras</a>
+                    <div class="dropdown-content">
+                        <a href="articles/potager/cultiver-tomates-guide-complet.html">Cultivar Tomates</a>
+                        <a href="articles/potager/herbes-aromatiques-debutants.html">Hierbas Aromaticas</a>
+                        <a href="articles/potager/potager-en-carre.html">Huerto en Cuadro</a>
+                        <a href="articles/potager/compostage-maison.html">Compostaje Casero</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="pages/plantes-interieur.html">Plantas de Interior</a>
+                    <div class="dropdown-content">
+                        <a href="articles/plantes-interieur/entretien-monstera.html">Cuidado de Monstera</a>
+                        <a href="articles/plantes-interieur/plantes-depolluantes.html">Plantas Purificadoras</a>
+                        <a href="articles/plantes-interieur/succulentes-guide.html">Guia de Suculentas</a>
+                        <a href="articles/plantes-interieur/plantes-suspendues.html">Plantas Colgantes</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="pages/fleurs.html">Flores y Jardin</a>
+                    <div class="dropdown-content">
+                        <a href="articles/fleurs/roses-entretien-taille.html">Cuidado de Rosas</a>
+                        <a href="articles/fleurs/jardin-fleurs-sauvages.html">Flores Silvestres</a>
+                        <a href="articles/fleurs/bulbes-printemps.html">Bulbos de Primavera</a>
+                        <a href="articles/fleurs/jardin-papillons.html">Jardin de Mariposas</a>
+                    </div>
+                </div>
+                <a href="pages/astuces.html">Consejos</a>
+                <a href="pages/problems.html">Problemas y Soluciones</a>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Buscar">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+            <div class="container">
+                <form action="pages/search.html" method="get">
+                    <input type="search" name="q" placeholder="Buscar un articulo, una planta, un consejo...">
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="hero-badge">&#127793; Guia de Primavera 2026</span>
+                <h1>Prepara tu <span class="highlight">jardin</span> para la primavera</h1>
+                <p>Descubre nuestros mejores consejos para un jardin floreciente esta temporada. De las semillas al huerto, todo lo que necesitas saber para tener exito.</p>
+                <div class="hero-buttons">
+                    <a href="articles/astuces/preparer-jardin-printemps.html" class="btn btn-primary">Leer la Guia &#8594;</a>
+                    <a href="pages/potager.html" class="btn btn-outline">Explorar el Huerto</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Articulos y Guias</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-number">5K+</div>
+                        <div class="stat-label">Jardineros</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Consejos en Video</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-wrapper">
+                    <img src="../images/site/garden-hammock.png" alt="Hermoso jardin primaveral con flores coloridas" loading="eager">
+                    <div class="hero-img-badge">
+                        <div class="badge-icon">&#127807;</div>
+                        <div class="badge-text">
+                            <strong>Nuevo contenido</strong>
+                            cada semana
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories animate-on-scroll">
+        <div class="container">
+            <div class="categories-grid">
+                <a href="pages/potager.html" class="category-card">
+                    <div class="category-icon">&#129382;</div>
+                    <h3>Huerto y Verduras</h3>
+                    <p>Cultiva tus propias frutas y verduras</p>
+                </a>
+                <a href="pages/plantes-interieur.html" class="category-card">
+                    <div class="category-icon">&#127811;</div>
+                    <h3>Plantas de Interior</h3>
+                    <p>Dale vida verde a tu hogar</p>
+                </a>
+                <a href="pages/fleurs.html" class="category-card">
+                    <div class="category-icon">&#127800;</div>
+                    <h3>Flores y Jardin</h3>
+                    <p>Crea un jardin colorido y lleno de vida</p>
+                </a>
+                <a href="pages/astuces.html" class="category-card">
+                    <div class="category-icon">&#128161;</div>
+                    <h3>Consejos y Trucos</h3>
+                    <p>Trucos profesionales para todo jardinero</p>
+                </a>
+                <a href="pages/problems.html" class="category-card">
+                    <div class="category-icon">&#128027;</div>
+                    <h3>Problemas y Soluciones</h3>
+                    <p>Diagnostica y trata tus plantas</p>
+                </a>
+                <a href="https://www.facebook.com/igardening" class="category-card category-card-fb" target="_blank">
+                    <div class="category-icon">&#127909;</div>
+                    <h3>Nuestros Reels de Facebook</h3>
+                    <p>Sigue nuestros consejos en video</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Articles -->
+    <section class="featured">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Articulos Populares</h2>
+                <p>Nuestras guias mas apreciadas por la comunidad</p>
+            </div>
+            <div class="articles-grid">
+                <article class="article-card article-card-large animate-on-scroll">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1558818498-28c1e002b655?w=700&h=400&fit=crop" alt="Tomates rojos maduros en la planta del huerto" loading="lazy">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Huerto</span>
+                        <h3><a href="articles/potager/cultiver-tomates-guide-complet.html">Guia Completa: Cultivar Tomates Perfectos</a></h3>
+                        <p>De la siembra a la cosecha, domina el arte de cultivar tomates sabrosos en tu jardin o en tu balcon. Variedades, calendario y secretos profesionales.</p>
+                        <div class="article-meta">
+                            <span>&#128337; 15 min de lectura</span>
+                            <span>&#11088; Guia Completa</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-card animate-on-scroll">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=500&h=300&fit=crop" alt="Monstera Deliciosa con grandes hojas fenestradas" loading="lazy">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Plantas de Interior</span>
+                        <h3><a href="articles/plantes-interieur/entretien-monstera.html">Como Cuidar una Monstera Deliciosa</a></h3>
+                        <p>Todos los secretos para una Monstera exuberante y saludable.</p>
+                        <div class="article-meta">
+                            <span>&#128337; 8 min</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-card animate-on-scroll">
+                    <div class="article-image">
+                        <img src="../images/site/roses.jpeg" alt="Rosas rosadas en plena floracion" loading="lazy">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Flores</span>
+                        <h3><a href="articles/fleurs/roses-entretien-taille.html">El Arte de Podar y Cuidar tus Rosales</a></h3>
+                        <p>Aprende cuando y como podar tus rosales para una floracion espectacular.</p>
+                        <div class="article-meta">
+                            <span>&#128337; 10 min</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-card animate-on-scroll">
+                    <div class="article-image">
+                        <img src="../images/site/herbs-kitchen.png" alt="Hierbas aromaticas frescas: albahaca, perejil, menta" loading="lazy">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Huerto</span>
+                        <h3><a href="articles/potager/herbes-aromatiques-debutants.html">Hierbas Aromaticas: La Guia del Principiante</a></h3>
+                        <p>Albahaca, perejil, cebollino... Cultiva tus hierbas frescas facilmente.</p>
+                        <div class="article-meta">
+                            <span>&#128337; 7 min</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-card animate-on-scroll">
+                    <div class="article-image">
+                        <img src="https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=500&h=300&fit=crop" alt="Pulgones verdes en un tallo de planta" loading="lazy">
+                    </div>
+                    <div class="article-content">
+                        <span class="article-category">Problemas</span>
+                        <h3><a href="articles/problems/pucerons-solutions-naturelles.html">Pulgones: 7 Soluciones Naturales Efectivas</a></h3>
+                        <p>Elimina los pulgones sin productos quimicos gracias a estos metodos probados.</p>
+                        <div class="article-meta">
+                            <span>&#128337; 6 min</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Carousel -->
+    <section class="tips-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Consejos Rapidos</h2>
+                <p>Consejos practicos de nuestros Reels de Facebook</p>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">01</div>
+                    <h4>Posos de cafe</h4>
+                    <p>Usa los posos de cafe como abono natural. Rico en nitrogeno, es perfecto para hortensias, rosales y tomates.</p>
+                </div>
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">02</div>
+                    <h4>Riego en el momento adecuado</h4>
+                    <p>Riega temprano por la manana o al final del dia para evitar la evaporacion y las quemaduras en las hojas.</p>
+                </div>
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">03</div>
+                    <h4>Cascaras de huevo</h4>
+                    <p>Tritura cascaras de huevo alrededor de tus plantas para alejar las babosas y aportar calcio al suelo.</p>
+                </div>
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">04</div>
+                    <h4>Asociacion de plantas</h4>
+                    <p>Planta albahaca cerca de los tomates: repele las moscas blancas y mejora el sabor de los frutos.</p>
+                </div>
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">05</div>
+                    <h4>Agua de coccion</h4>
+                    <p>Guarda el agua de coccion de las verduras (enfriada) para regar tus plantas: es un fertilizante rico en nutrientes.</p>
+                </div>
+                <div class="tip-card animate-on-scroll">
+                    <div class="tip-number">06</div>
+                    <h4>Acolchado natural</h4>
+                    <p>Cubre la base de tus plantas con hojas secas o paja para retener la humedad y limitar las malas hierbas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video / Facebook Reels Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Nuestros Reels Populares</h2>
+                <p>Los consejos mas vistos en nuestra pagina de Facebook</p>
+            </div>
+            <div class="video-grid">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="video-card animate-on-scroll">
+                    <div class="video-thumb">
+                        <img src="https://images.unsplash.com/photo-1591857177580-dc82b9ac4e1e?w=500&h=300&fit=crop" alt="Semilleros en macetas de terracota" loading="lazy">
+                        <div class="video-play">&#9654;</div>
+                    </div>
+                    <div class="video-info">
+                        <h4>5 errores que debes evitar con tus semilleros</h4>
+                        <p>32K vistas &bull; Consejo rapido</p>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="video-card animate-on-scroll">
+                    <div class="video-thumb">
+                        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=500&h=300&fit=crop" alt="Compost en un contenedor de madera" loading="lazy">
+                        <div class="video-play">&#9654;</div>
+                    </div>
+                    <div class="video-info">
+                        <h4>Hacer tu compost en 30 dias</h4>
+                        <p>28K vistas &bull; Tutorial</p>
+                    </div>
+                </a>
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="video-card animate-on-scroll">
+                    <div class="video-thumb">
+                        <img src="../images/site/garden-pond.png" alt="Riego de plantas al atardecer" loading="lazy">
+                        <div class="video-play">&#9654;</div>
+                    </div>
+                    <div class="video-info">
+                        <h4>El riego perfecto explicado en 60s</h4>
+                        <p>45K vistas &bull; Consejo rapido</p>
+                    </div>
+                </a>
+            </div>
+            <div class="video-cta animate-on-scroll">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="btn btn-primary">Ver todos nuestros Reels en Facebook &#8594;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="latest">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Ultimos Articulos</h2>
+                <a href="pages/potager.html" class="see-all">Ver todos los articulos &#8594;</a>
+            </div>
+            <div class="latest-grid">
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=250&h=200&fit=crop" alt="Jardin florido en primavera" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Consejos</span>
+                        <h3><a href="articles/astuces/preparer-jardin-printemps.html">10 Pasos para Preparar tu Jardin para la Primavera</a></h3>
+                        <p>La guia esencial para empezar la temporada con buen pie.</p>
+                        <time>8 Marzo 2026</time>
+                    </div>
+                </article>
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="https://images.unsplash.com/photo-1459411552884-841db9b3cc2a?w=250&h=200&fit=crop" alt="Plantas de interior en un salon luminoso" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Plantas de Interior</span>
+                        <h3><a href="articles/plantes-interieur/plantes-depolluantes.html">Top 10 de Plantas Purificadoras para tu Hogar</a></h3>
+                        <p>Purifica el aire de tu interior de forma natural.</p>
+                        <time>5 Marzo 2026</time>
+                    </div>
+                </article>
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="https://images.unsplash.com/photo-1457530378978-8bac673b8062?w=250&h=200&fit=crop" alt="Tulipanes y narcisos coloridos en primavera" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Flores</span>
+                        <h3><a href="articles/fleurs/bulbes-printemps.html">Que Bulbos Plantar para una Primavera Colorida</a></h3>
+                        <p>Tulipanes, narcisos, azafran: la guia de bulbos de floracion primaveral.</p>
+                        <time>2 Marzo 2026</time>
+                    </div>
+                </article>
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="../images/site/potager-carre.png" alt="Huerto en cuadro elevado de madera" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Huerto</span>
+                        <h3><a href="articles/potager/potager-en-carre.html">Crear un Huerto en Cuadro: Guia Paso a Paso</a></h3>
+                        <p>El metodo mas sencillo para empezar un huerto productivo.</p>
+                        <time>28 Febrero 2026</time>
+                    </div>
+                </article>
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=250&h=200&fit=crop" alt="Contenedor de compost en un jardin" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Consejos</span>
+                        <h3><a href="articles/potager/compostage-maison.html">El Compostaje Casero: Cero Residuos en el Jardin</a></h3>
+                        <p>Transforma tus residuos en oro negro para tu jardin.</p>
+                        <time>25 Febrero 2026</time>
+                    </div>
+                </article>
+                <article class="latest-card animate-on-scroll">
+                    <div class="latest-image">
+                        <img src="https://images.unsplash.com/photo-1463154545680-d59320fd685d?w=250&h=200&fit=crop" alt="Suculentas coloridas en macetas" loading="lazy">
+                    </div>
+                    <div class="latest-content">
+                        <span class="article-category">Plantas de Interior</span>
+                        <h3><a href="articles/plantes-interieur/succulentes-guide.html">Guia Completa de Suculentas</a></h3>
+                        <p>Cuidados, variedades y consejos para suculentas magnificas.</p>
+                        <time>20 Febrero 2026</time>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content animate-on-scroll">
+                <h2>Unete a la Comunidad iGardening</h2>
+                <p>Recibe nuestros mejores consejos de jardineria directamente en tu correo. Consejos semanales, guias estacionales y ofertas exclusivas.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Tu direccion de email" required>
+                    <button type="submit" class="btn btn-primary">Suscribirse</button>
+                </form>
+                <p class="newsletter-note">Unete a mas de 5.000 jardineros apasionados. Puedes darte de baja en cualquier momento.</p>
+                <div class="newsletter-social">
+                    <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="social-link">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        Siguenos en Facebook
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="index.html" class="logo">
+                        <span class="logo-icon">&#127793;</span>
+                        <span class="logo-text">i<strong>Gardening</strong></span>
+                    </a>
+                    <p>iGardening es tu recurso en linea para todo lo relacionado con la jardineria. Desde consejos practicos hasta guias completas, te acompanamos en todas tus aventuras verdes.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categorias</h4>
+                    <ul>
+                        <li><a href="pages/potager.html">Huerto y Verduras</a></li>
+                        <li><a href="pages/plantes-interieur.html">Plantas de Interior</a></li>
+                        <li><a href="pages/fleurs.html">Flores y Jardin</a></li>
+                        <li><a href="pages/astuces.html">Consejos y Trucos</a></li>
+                        <li><a href="pages/problems.html">Problemas y Soluciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Acerca de</h4>
+                    <ul>
+                        <li><a href="pages/about.html">Quienes somos</a></li>
+                        <li><a href="pages/contact.html">Contacto</a></li>
+                        <li><a href="pages/privacy.html">Politica de privacidad</a></li>
+                        <li><a href="pages/terms.html">Aviso legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Siguenos</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Pinterest</a></li>
+                        <li><a href="#" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 iGardening.co - Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">&#8593;</button>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>

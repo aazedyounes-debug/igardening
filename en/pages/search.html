@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search | iGardening</title>
+    <meta name="description" content="Search our articles, guides and gardening tips on iGardening.">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .search-hero {
+            background: linear-gradient(135deg, var(--green-50), var(--earth-50));
+            padding: 60px 0;
+            text-align: center;
+        }
+        .search-hero h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--green-900);
+            margin-bottom: 20px;
+        }
+        .search-hero-form {
+            max-width: 600px;
+            margin: 0 auto;
+            display: flex;
+            gap: 12px;
+        }
+        .search-hero-form input {
+            flex: 1;
+            padding: 14px 20px;
+            border: 2px solid var(--green-200);
+            border-radius: var(--radius-sm);
+            font-size: 1rem;
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background: var(--bg-white);
+            outline: none;
+            transition: border-color var(--transition);
+        }
+        .search-hero-form input:focus {
+            border-color: var(--green-500);
+        }
+        .search-hero-form button {
+            padding: 14px 28px;
+            background: var(--green-600);
+            color: white;
+            border: none;
+            border-radius: var(--radius-sm);
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background var(--transition);
+        }
+        .search-hero-form button:hover {
+            background: var(--green-700);
+        }
+        .search-results-section {
+            padding: 60px 0;
+            min-height: 400px;
+        }
+        .search-status {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .search-status p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+        }
+        .search-status strong {
+            color: var(--green-700);
+        }
+        .search-results-grid {
+            display: grid;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .search-result-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            transition: all var(--transition);
+            text-decoration: none;
+            display: block;
+        }
+        .search-result-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+            border-color: var(--green-200);
+        }
+        .search-result-card .result-category {
+            display: inline-block;
+            background: var(--green-50);
+            color: var(--green-700);
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 10px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+        .search-result-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.2rem;
+            color: var(--text-primary);
+            margin-bottom: 8px;
+        }
+        .search-result-card p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px 0;
+        }
+        .no-results .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        .no-results h2 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--green-800);
+            margin-bottom: 12px;
+        }
+        .no-results p {
+            color: var(--text-secondary);
+            max-width: 500px;
+            margin: 0 auto 24px;
+        }
+        .suggestions {
+            max-width: 600px;
+            margin: 40px auto 0;
+            text-align: center;
+        }
+        .suggestions h3 {
+            font-size: 1.1rem;
+            color: var(--green-800);
+            margin-bottom: 16px;
+        }
+        .suggestions-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+        .suggestion-tag {
+            display: inline-block;
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            text-decoration: none;
+            transition: all var(--transition);
+        }
+        .suggestion-tag:hover {
+            background: var(--green-50);
+            border-color: var(--green-200);
+            color: var(--green-700);
+        }
+        @media (max-width: 768px) {
+            .search-hero h1 { font-size: 2rem; }
+            .search-hero-form { flex-direction: column; }
+            .search-hero-form button { width: 100%; }
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68PN353H4C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-68PN353H4C');
+    </script>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Welcome to iGardening - Your garden starts here</span>
+            <div class="top-bar-right">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a>
+                <a href="contact.html">Contact</a>
+                <div class="lang-switcher">
+                    <a href="/en/pages/search.html" class="active-lang" title="English">EN</a>
+                    <a href="/pages/search.html" title="Fran&ccedil;ais">FR</a>
+                    <a href="/es/pages/search.html" title="Espa&ntilde;ol">ES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">&#127793;</span>
+                <span class="logo-text">i<strong>Gardening</strong></span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html">Home</a>
+                <div class="nav-dropdown">
+                    <a href="potager.html">Vegetable Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/potager/cultiver-tomates-guide-complet.html">Growing Tomatoes</a>
+                        <a href="../articles/potager/herbes-aromatiques-debutants.html">Aromatic Herbs</a>
+                        <a href="../articles/potager/potager-en-carre.html">Square Foot Garden</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="plantes-interieur.html">Indoor Plants</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/plantes-interieur/entretien-monstera.html">Monstera Care</a>
+                        <a href="../articles/plantes-interieur/plantes-depolluantes.html">Air-Purifying Plants</a>
+                        <a href="../articles/plantes-interieur/succulentes-guide.html">Succulents Guide</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="fleurs.html">Flowers & Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/fleurs/roses-entretien-taille.html">Rose Care</a>
+                        <a href="../articles/fleurs/jardin-fleurs-sauvages.html">Wildflower Garden</a>
+                        <a href="../articles/fleurs/bulbes-printemps.html">Spring Bulbs</a>
+                    </div>
+                </div>
+                <a href="astuces.html">Tips</a>
+                <a href="problems.html">Problems & Solutions</a>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+            <div class="container">
+                <form action="search.html" method="get">
+                    <input type="search" name="q" placeholder="Search for an article, a plant, a tip...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>&rsaquo;</span>
+            Search
+        </div>
+    </div>
+
+    <!-- Search Hero -->
+    <section class="search-hero">
+        <div class="container">
+            <h1>Search</h1>
+            <form class="search-hero-form" id="searchPageForm">
+                <input type="search" id="searchInput" placeholder="Type your search..." autofocus>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Search Results -->
+    <section class="search-results-section">
+        <div class="container">
+            <div class="search-status" id="searchStatus"></div>
+            <div class="search-results-grid" id="searchResults"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">&#127793;</span>
+                        <span class="logo-text">i<strong>Gardening</strong></span>
+                    </a>
+                    <p>iGardening is your online resource for everything gardening. From practical tips to comprehensive guides, we support you in all your green adventures.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="potager.html">Vegetable Garden</a></li>
+                        <li><a href="plantes-interieur.html">Indoor Plants</a></li>
+                        <li><a href="fleurs.html">Flowers & Garden</a></li>
+                        <li><a href="astuces.html">Tips & Advice</a></li>
+                        <li><a href="problems.html">Problems & Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Pinterest</a></li>
+                        <li><a href="#" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 iGardening.co - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+    <script>
+        // Articles database for client-side search
+        const articles = [
+            {
+                title: "Complete Guide: Growing Perfect Tomatoes",
+                description: "From sowing to harvesting, master the art of growing delicious tomatoes in your garden or on your balcony.",
+                category: "Vegetable Garden",
+                url: "../articles/potager/cultiver-tomates-guide-complet.html",
+                keywords: "tomatoes, grow, sowing, harvest, garden, balcony, varieties"
+            },
+            {
+                title: "Aromatic Herbs: The Beginner's Guide",
+                description: "Basil, parsley, chives... Grow your fresh herbs easily at home or in the garden.",
+                category: "Vegetable Garden",
+                url: "../articles/potager/herbes-aromatiques-debutants.html",
+                keywords: "herbs, aromatic, basil, parsley, chives, mint, thyme"
+            },
+            {
+                title: "Creating a Square Foot Garden: Step by Step Guide",
+                description: "The simplest method to start a productive vegetable garden, even in a small space.",
+                category: "Vegetable Garden",
+                url: "../articles/potager/potager-en-carre.html",
+                keywords: "vegetable garden, square, raised, beginner, small space, construction"
+            },
+            {
+                title: "Home Composting: Zero Waste in the Garden",
+                description: "Transform your kitchen and garden waste into black gold to feed your plants.",
+                category: "Vegetable Garden",
+                url: "../articles/potager/compostage-maison.html",
+                keywords: "compost, composting, waste, fertilizer, natural, zero waste"
+            },
+            {
+                title: "How to Care for a Monstera Deliciosa",
+                description: "All the secrets for a lush and healthy Monstera: watering, light, repotting.",
+                category: "Indoor Plants",
+                url: "../articles/plantes-interieur/entretien-monstera.html",
+                keywords: "monstera, deliciosa, care, indoor, tropical, leaves"
+            },
+            {
+                title: "Top 10 Air-Purifying Plants for Your Home",
+                description: "Naturally purify the air in your home with these plants with proven air-cleaning properties.",
+                category: "Indoor Plants",
+                url: "../articles/plantes-interieur/plantes-depolluantes.html",
+                keywords: "air-purifying, air, purify, indoor, home, health"
+            },
+            {
+                title: "The Complete Guide to Succulents",
+                description: "Care, varieties and tips for magnificent and healthy succulents.",
+                category: "Indoor Plants",
+                url: "../articles/plantes-interieur/succulentes-guide.html",
+                keywords: "succulents, cactus, care, watering, varieties, fat plants"
+            },
+            {
+                title: "Hanging Plants: The Best Varieties",
+                description: "Discover the most beautiful trailing plants to decorate your home from above.",
+                category: "Indoor Plants",
+                url: "../articles/plantes-interieur/plantes-suspendues.html",
+                keywords: "hanging, trailing, macrame, pothos, ivy, decoration"
+            },
+            {
+                title: "The Art of Pruning and Caring for Your Roses",
+                description: "Learn when and how to prune your roses for spectacular blooms throughout the season.",
+                category: "Flowers",
+                url: "../articles/fleurs/roses-entretien-taille.html",
+                keywords: "roses, pruning, care, blooming, spring"
+            },
+            {
+                title: "Creating a Wildflower Garden",
+                description: "Transform a corner of your garden into a natural flower meadow for biodiversity.",
+                category: "Flowers",
+                url: "../articles/fleurs/jardin-fleurs-sauvages.html",
+                keywords: "wildflowers, meadow, biodiversity, bees, natural"
+            },
+            {
+                title: "Which Bulbs to Plant for a Colorful Spring",
+                description: "Tulips, daffodils, crocuses: the complete guide to spring-flowering bulbs.",
+                category: "Flowers",
+                url: "../articles/fleurs/bulbes-printemps.html",
+                keywords: "bulbs, tulips, daffodils, crocuses, spring, planting, autumn"
+            },
+            {
+                title: "Creating a Butterfly Garden",
+                description: "Attract butterflies to your garden with the right plants and arrangements.",
+                category: "Flowers",
+                url: "../articles/fleurs/jardin-papillons.html",
+                keywords: "butterflies, pollinators, buddleia, lavender, nectar"
+            },
+            {
+                title: "10 Steps to Prepare Your Garden for Spring",
+                description: "The essential guide to starting the season right: cleanup, sowing, soil preparation.",
+                category: "Tips",
+                url: "../articles/astuces/preparer-jardin-printemps.html",
+                keywords: "spring, preparation, season, cleanup, sowing, soil"
+            },
+            {
+                title: "Homemade Natural Fertilizers",
+                description: "Make your own natural fertilizers from everyday ingredients to feed your plants.",
+                category: "Tips",
+                url: "../articles/astuces/engrais-naturels-maison.html",
+                keywords: "fertilizer, natural, homemade, compost, coffee grounds, eggshells"
+            },
+            {
+                title: "Balcony Gardening: Complete Guide",
+                description: "Grow flowers, herbs and vegetables on your balcony with our tips for small spaces.",
+                category: "Tips",
+                url: "../articles/astuces/jardinage-balcon.html",
+                keywords: "balcony, terrace, small space, pots, planters, urban"
+            },
+            {
+                title: "Aphids: 7 Effective Natural Solutions",
+                description: "Eliminate aphids without chemicals using these proven natural methods.",
+                category: "Problems",
+                url: "../articles/problems/pucerons-solutions-naturelles.html",
+                keywords: "aphids, insects, natural, black soap, ladybugs, treatment"
+            },
+            {
+                title: "Indoor Plant Diseases: Diagnosis Guide",
+                description: "Identify and treat common diseases of your indoor plants.",
+                category: "Problems",
+                url: "../articles/problems/maladies-plantes-interieur.html",
+                keywords: "diseases, diagnosis, yellow leaves, spots, fungi, parasites"
+            }
+        ];
+
+        // Get search query from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const query = urlParams.get('q') || '';
+        const searchInput = document.getElementById('searchInput');
+        const searchStatus = document.getElementById('searchStatus');
+        const searchResults = document.getElementById('searchResults');
+
+        // Set input value from URL
+        searchInput.value = query;
+
+        // Search function
+        function performSearch(searchQuery) {
+            if (!searchQuery.trim()) {
+                searchStatus.innerHTML = '';
+                searchResults.innerHTML = `
+                    <div class="no-results">
+                        <div class="icon">&#128270;</div>
+                        <h2>What are you looking for?</h2>
+                        <p>Type a keyword to find articles, guides and gardening tips.</p>
+                    </div>
+                    <div class="suggestions">
+                        <h3>Popular Searches</h3>
+                        <div class="suggestions-grid">
+                            <a href="?q=tomatoes" class="suggestion-tag">Tomatoes</a>
+                            <a href="?q=monstera" class="suggestion-tag">Monstera</a>
+                            <a href="?q=roses" class="suggestion-tag">Roses</a>
+                            <a href="?q=compost" class="suggestion-tag">Compost</a>
+                            <a href="?q=aphids" class="suggestion-tag">Aphids</a>
+                            <a href="?q=succulents" class="suggestion-tag">Succulents</a>
+                            <a href="?q=aromatic herbs" class="suggestion-tag">Aromatic Herbs</a>
+                            <a href="?q=balcony" class="suggestion-tag">Balcony Gardening</a>
+                            <a href="?q=spring" class="suggestion-tag">Spring</a>
+                            <a href="?q=bulbs" class="suggestion-tag">Bulbs</a>
+                        </div>
+                    </div>`;
+                return;
+            }
+
+            const terms = searchQuery.toLowerCase().split(/\s+/);
+            const results = articles.filter(article => {
+                const searchText = (article.title + ' ' + article.description + ' ' + article.keywords + ' ' + article.category).toLowerCase();
+                return terms.every(term => searchText.includes(term));
+            });
+
+            // Sort by relevance (title matches first)
+            results.sort((a, b) => {
+                const aTitle = terms.some(t => a.title.toLowerCase().includes(t)) ? 0 : 1;
+                const bTitle = terms.some(t => b.title.toLowerCase().includes(t)) ? 0 : 1;
+                return aTitle - bTitle;
+            });
+
+            if (results.length > 0) {
+                searchStatus.innerHTML = `<p><strong>${results.length}</strong> result${results.length > 1 ? 's' : ''} for "<strong>${searchQuery}</strong>"</p>`;
+                searchResults.innerHTML = results.map(article => `
+                    <a href="${article.url}" class="search-result-card">
+                        <span class="result-category">${article.category}</span>
+                        <h3>${article.title}</h3>
+                        <p>${article.description}</p>
+                    </a>
+                `).join('');
+            } else {
+                searchStatus.innerHTML = `<p>No results for "<strong>${searchQuery}</strong>"</p>`;
+                searchResults.innerHTML = `
+                    <div class="no-results">
+                        <div class="icon">&#127808;</div>
+                        <h2>No Results Found</h2>
+                        <p>Try different keywords or browse our categories below.</p>
+                        <a href="../index.html" class="btn btn-primary">Back to Home</a>
+                    </div>
+                    <div class="suggestions">
+                        <h3>Search Suggestions</h3>
+                        <div class="suggestions-grid">
+                            <a href="?q=tomatoes" class="suggestion-tag">Tomatoes</a>
+                            <a href="?q=monstera" class="suggestion-tag">Monstera</a>
+                            <a href="?q=roses" class="suggestion-tag">Roses</a>
+                            <a href="?q=compost" class="suggestion-tag">Compost</a>
+                            <a href="?q=aphids" class="suggestion-tag">Aphids</a>
+                            <a href="?q=succulents" class="suggestion-tag">Succulents</a>
+                        </div>
+                    </div>`;
+            }
+        }
+
+        // Run search on page load
+        performSearch(query);
+
+        // Handle form submit
+        document.getElementById('searchPageForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const newQuery = searchInput.value.trim();
+            if (newQuery) {
+                window.history.pushState({}, '', '?q=' + encodeURIComponent(newQuery));
+                performSearch(newQuery);
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | iGardening</title>
+    <meta name="description" content="Contact the iGardening team. Questions, suggestions, partnerships: we are here to help.">
+    <meta name="keywords" content="contact iGardening, contact us, gardening question, partnership">
+    <meta property="og:title" content="Contact - iGardening">
+    <meta property="og:description" content="Contact the iGardening team for any question or suggestion.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://igardening.co/en/pages/contact.html">
+    <link rel="canonical" href="https://igardening.co/en/pages/contact.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .contact-hero {
+            background: linear-gradient(135deg, var(--green-50), var(--earth-50));
+            padding: 60px 0;
+            text-align: center;
+        }
+        .contact-hero h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--green-900);
+            margin-bottom: 12px;
+        }
+        .contact-hero p {
+            color: var(--text-secondary);
+            font-size: 1.05rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .contact-section {
+            padding: 60px 0;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 60px;
+            align-items: start;
+        }
+        .contact-form-wrapper {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 40px;
+        }
+        .contact-form-wrapper h2 {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            color: var(--green-800);
+            margin-bottom: 24px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 6px;
+        }
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid var(--border);
+            border-radius: var(--radius-sm);
+            font-size: 0.95rem;
+            font-family: var(--font-body);
+            color: var(--text-primary);
+            background: var(--bg-white);
+            outline: none;
+            transition: border-color var(--transition);
+        }
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            border-color: var(--green-500);
+        }
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: var(--text-muted);
+        }
+        .form-group textarea {
+            min-height: 160px;
+            resize: vertical;
+        }
+        .form-submit {
+            margin-top: 8px;
+        }
+        .form-submit .btn {
+            width: 100%;
+            justify-content: center;
+            padding: 14px 28px;
+            font-size: 1rem;
+        }
+        .form-note {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 12px;
+            text-align: center;
+        }
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+        .contact-info-card {
+            background: var(--bg-light);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 24px;
+        }
+        .contact-info-card .icon {
+            font-size: 2rem;
+            margin-bottom: 12px;
+        }
+        .contact-info-card h3 {
+            font-size: 1.05rem;
+            color: var(--green-800);
+            margin-bottom: 8px;
+        }
+        .contact-info-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .contact-info-card a {
+            color: var(--green-600);
+            font-weight: 600;
+            transition: color var(--transition);
+        }
+        .contact-info-card a:hover {
+            color: var(--green-800);
+        }
+        .contact-social {
+            background: linear-gradient(135deg, var(--green-50), var(--earth-50));
+            border: 1px solid var(--green-200);
+            border-radius: var(--radius-md);
+            padding: 24px;
+            text-align: center;
+        }
+        .contact-social h3 {
+            font-size: 1.05rem;
+            color: var(--green-800);
+            margin-bottom: 12px;
+        }
+        .contact-social p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            margin-bottom: 16px;
+        }
+        @media (max-width: 768px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .contact-form-wrapper {
+                padding: 24px;
+            }
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68PN353H4C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-68PN353H4C');
+    </script>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Welcome to iGardening - Your garden starts here</span>
+            <div class="top-bar-right">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a>
+                <a href="contact.html">Contact</a>
+                <div class="lang-switcher">
+                    <a href="/en/pages/contact.html" class="active-lang" title="English">EN</a>
+                    <a href="/pages/contact.html" title="Fran&ccedil;ais">FR</a>
+                    <a href="/es/pages/contact.html" title="Espa&ntilde;ol">ES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">&#127793;</span>
+                <span class="logo-text">i<strong>Gardening</strong></span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html">Home</a>
+                <div class="nav-dropdown">
+                    <a href="potager.html">Vegetable Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/potager/cultiver-tomates-guide-complet.html">Growing Tomatoes</a>
+                        <a href="../articles/potager/herbes-aromatiques-debutants.html">Aromatic Herbs</a>
+                        <a href="../articles/potager/potager-en-carre.html">Square Foot Garden</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="plantes-interieur.html">Indoor Plants</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/plantes-interieur/entretien-monstera.html">Monstera Care</a>
+                        <a href="../articles/plantes-interieur/plantes-depolluantes.html">Air-Purifying Plants</a>
+                        <a href="../articles/plantes-interieur/succulentes-guide.html">Succulents Guide</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="fleurs.html">Flowers & Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/fleurs/roses-entretien-taille.html">Rose Care</a>
+                        <a href="../articles/fleurs/jardin-fleurs-sauvages.html">Wildflower Garden</a>
+                        <a href="../articles/fleurs/bulbes-printemps.html">Spring Bulbs</a>
+                    </div>
+                </div>
+                <a href="astuces.html">Tips</a>
+                <a href="problems.html">Problems & Solutions</a>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+            <div class="container">
+                <form action="search.html" method="get">
+                    <input type="search" name="q" placeholder="Search for an article, a plant, a tip...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>&rsaquo;</span>
+            Contact
+        </div>
+    </div>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Have a question, suggestion, or want to collaborate? We are here to help and will get back to you as soon as possible.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your full name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected>Choose a subject</option>
+                                <option value="question">Gardening Question</option>
+                                <option value="suggestion">Article Suggestion</option>
+                                <option value="partenariat">Partnership / Collaboration</option>
+                                <option value="technique">Technical Issue on the Site</option>
+                                <option value="autre">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Describe your request in detail..." required></textarea>
+                        </div>
+                        <div class="form-submit">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                        <p class="form-note">* Required fields. We usually respond within 48 hours.</p>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-info-card">
+                        <div class="icon">&#128231;</div>
+                        <h3>Email</h3>
+                        <p>For any general question:<br><a href="mailto:contact@igardening.co">contact@igardening.co</a></p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="icon">&#128172;</div>
+                        <h3>Social Media</h3>
+                        <p>Find us on Facebook for live exchanges with the community and daily tips.</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="icon">&#9200;</div>
+                        <h3>Response Time</h3>
+                        <p>We do our best to respond to all messages within 48 business hours.</p>
+                    </div>
+                    <div class="contact-social">
+                        <h3>Join Us on Facebook</h3>
+                        <p>Follow our Reels, ask your questions and chat with other passionate gardeners.</p>
+                        <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="btn btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                            Our Facebook Page
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">&#127793;</span>
+                        <span class="logo-text">i<strong>Gardening</strong></span>
+                    </a>
+                    <p>iGardening is your online resource for everything gardening. From practical tips to comprehensive guides, we support you in all your green adventures.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="potager.html">Vegetable Garden</a></li>
+                        <li><a href="plantes-interieur.html">Indoor Plants</a></li>
+                        <li><a href="fleurs.html">Flowers & Garden</a></li>
+                        <li><a href="astuces.html">Tips & Advice</a></li>
+                        <li><a href="problems.html">Problems & Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Pinterest</a></li>
+                        <li><a href="#" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 iGardening.co - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>

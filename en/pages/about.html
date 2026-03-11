@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | iGardening</title>
+    <meta name="description" content="Discover the story of iGardening, our mission and our team. A passionate gardening community.">
+    <meta name="keywords" content="iGardening, about, gardening team, gardening community, mission">
+    <meta property="og:title" content="About Us - iGardening">
+    <meta property="og:description" content="Discover the story, mission and team behind iGardening.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://igardening.co/en/pages/about.html">
+    <link rel="canonical" href="https://igardening.co/en/pages/about.html">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/style.css">
+    <style>
+        .about-hero {
+            background: linear-gradient(135deg, var(--green-50), var(--earth-50));
+            padding: 80px 0;
+            text-align: center;
+        }
+        .about-hero h1 {
+            font-family: var(--font-display);
+            font-size: 2.5rem;
+            color: var(--green-900);
+            margin-bottom: 16px;
+        }
+        .about-hero p {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+        .about-section {
+            padding: 60px 0;
+        }
+        .about-section:nth-child(even) {
+            background: var(--bg-light);
+        }
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        .about-content h2 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            color: var(--green-800);
+            margin-bottom: 20px;
+        }
+        .about-content p {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 16px;
+        }
+        .about-image {
+            background: linear-gradient(135deg, var(--green-200), var(--green-300));
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 300px;
+            font-size: 6rem;
+            box-shadow: var(--shadow-md);
+        }
+        .mission-cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+        .mission-card {
+            background: var(--bg-white);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 32px;
+            text-align: center;
+            transition: all var(--transition);
+        }
+        .mission-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-3px);
+        }
+        .mission-card .icon {
+            font-size: 3rem;
+            margin-bottom: 16px;
+        }
+        .mission-card h3 {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            color: var(--green-800);
+            margin-bottom: 10px;
+        }
+        .mission-card p {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 32px;
+            margin-top: 40px;
+        }
+        .team-card {
+            text-align: center;
+        }
+        .team-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--green-100), var(--green-200));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            margin: 0 auto 16px;
+            border: 3px solid var(--green-300);
+        }
+        .team-card h3 {
+            font-size: 1.1rem;
+            color: var(--text-primary);
+            margin-bottom: 4px;
+        }
+        .team-card .role {
+            font-size: 0.85rem;
+            color: var(--green-600);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        .team-card p {
+            font-size: 0.88rem;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .cta-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            color: var(--green-900);
+            margin-bottom: 16px;
+        }
+        .cta-section p {
+            color: var(--text-secondary);
+            max-width: 550px;
+            margin: 0 auto 24px;
+            font-size: 1rem;
+        }
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+        @media (max-width: 768px) {
+            .about-grid { grid-template-columns: 1fr; gap: 32px; }
+            .mission-cards { grid-template-columns: 1fr; }
+            .team-grid { grid-template-columns: 1fr; }
+            .cta-buttons { flex-direction: column; align-items: center; }
+        }
+    </style>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-68PN353H4C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-68PN353H4C');
+    </script>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>Welcome to iGardening - Your garden starts here</span>
+            <div class="top-bar-right">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a>
+                <a href="contact.html">Contact</a>
+                <div class="lang-switcher">
+                    <a href="/en/pages/about.html" class="active-lang" title="English">EN</a>
+                    <a href="/pages/about.html" title="Fran&ccedil;ais">FR</a>
+                    <a href="/es/pages/about.html" title="Espa&ntilde;ol">ES</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="../index.html" class="logo">
+                <span class="logo-icon">&#127793;</span>
+                <span class="logo-text">i<strong>Gardening</strong></span>
+            </a>
+            <nav class="nav" id="mainNav">
+                <a href="../index.html">Home</a>
+                <div class="nav-dropdown">
+                    <a href="potager.html">Vegetable Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/potager/cultiver-tomates-guide-complet.html">Growing Tomatoes</a>
+                        <a href="../articles/potager/herbes-aromatiques-debutants.html">Aromatic Herbs</a>
+                        <a href="../articles/potager/potager-en-carre.html">Square Foot Garden</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="plantes-interieur.html">Indoor Plants</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/plantes-interieur/entretien-monstera.html">Monstera Care</a>
+                        <a href="../articles/plantes-interieur/plantes-depolluantes.html">Air-Purifying Plants</a>
+                        <a href="../articles/plantes-interieur/succulentes-guide.html">Succulents Guide</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="fleurs.html">Flowers & Garden</a>
+                    <div class="dropdown-content">
+                        <a href="../articles/fleurs/roses-entretien-taille.html">Rose Care</a>
+                        <a href="../articles/fleurs/jardin-fleurs-sauvages.html">Wildflower Garden</a>
+                        <a href="../articles/fleurs/bulbes-printemps.html">Spring Bulbs</a>
+                    </div>
+                </div>
+                <a href="astuces.html">Tips</a>
+                <a href="problems.html">Problems & Solutions</a>
+            </nav>
+            <div class="header-actions">
+                <button class="search-toggle" id="searchToggle" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+        <div class="search-bar" id="searchBar">
+            <div class="container">
+                <form action="search.html" method="get">
+                    <input type="search" name="q" placeholder="Search for an article, a plant, a tip...">
+                    <button type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="container">
+            <a href="../index.html">Home</a>
+            <span>&rsaquo;</span>
+            About Us
+        </div>
+    </div>
+
+    <!-- About Hero -->
+    <section class="about-hero">
+        <div class="container">
+            <h1>About Us</h1>
+            <p>iGardening is a community of passionate gardeners. Our mission: to make gardening accessible to everyone, from beginners to experienced gardeners.</p>
+        </div>
+    </section>
+
+    <!-- Our Story -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Our Story</h2>
+                    <p>iGardening was born from a simple passion: the joy of watching what you've planted grow. What started as a small gardening tips blog has become a growing community of gardeners who share their experiences, successes, and sometimes their failures.</p>
+                    <p>We believe that everyone can have a green thumb. Whether you have a large garden, a small balcony, or even just a windowsill, there is always a way to grow something beautiful and delicious.</p>
+                    <p>Our content is designed to be practical, accessible, and based on real experience. No unnecessary jargon, just tips that really work.</p>
+                </div>
+                <div class="about-image">
+                    &#127793;
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; display: block;">
+                <h2 style="font-family: var(--font-display); font-size: 2rem; color: var(--green-900);">Our Mission</h2>
+                <p style="color: var(--text-secondary); margin-top: 8px;">Sharing gardening knowledge for all levels</p>
+            </div>
+            <div class="mission-cards">
+                <div class="mission-card">
+                    <div class="icon">&#127891;</div>
+                    <h3>Educate</h3>
+                    <p>Provide comprehensive and accessible guides to learn gardening techniques, from sowing to harvesting.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon">&#129309;</div>
+                    <h3>Connect</h3>
+                    <p>Create a welcoming community of gardeners who share their knowledge and help each other.</p>
+                </div>
+                <div class="mission-card">
+                    <div class="icon">&#127807;</div>
+                    <h3>Inspire</h3>
+                    <p>Encourage everyone to reconnect with nature, whether through a vegetable garden, houseplants, or a flower garden.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="about-section">
+        <div class="container">
+            <div class="section-header" style="text-align: center; display: block;">
+                <h2 style="font-family: var(--font-display); font-size: 2rem; color: var(--green-900);">Our Team</h2>
+                <p style="color: var(--text-secondary); margin-top: 8px;">Passionate people at the service of your garden</p>
+            </div>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-avatar">&#128104;&#8205;&#127806;</div>
+                    <h3>Marc Dupont</h3>
+                    <div class="role">Founder & Editor-in-Chief</div>
+                    <p>A passionate gardener for over 15 years, Marc shares his expertise in vegetable gardening and organic growing techniques.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">&#128105;&#8205;&#127806;</div>
+                    <h3>Sophie Martin</h3>
+                    <div class="role">Indoor Plants Expert</div>
+                    <p>A trained botanist, Sophie specializes in tropical plants and indoor plant design.</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-avatar">&#128104;&#8205;&#127806;</div>
+                    <h3>Pierre Leroy</h3>
+                    <div class="role">Flowers & Landscaping Specialist</div>
+                    <p>A professional landscaper, Pierre guides you in creating harmonious flower gardens and pruning roses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Join Our Community</h2>
+            <p>Follow us on Facebook for daily tips, inspiring Reels, and exchanges with other gardening enthusiasts.</p>
+            <div class="cta-buttons">
+                <a href="https://www.facebook.com/igardening" target="_blank" rel="noopener" class="btn btn-primary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="margin-right: 8px;"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    Follow us on Facebook
+                </a>
+                <a href="contact.html" class="btn btn-outline">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="../index.html" class="logo">
+                        <span class="logo-icon">&#127793;</span>
+                        <span class="logo-text">i<strong>Gardening</strong></span>
+                    </a>
+                    <p>iGardening is your online resource for everything gardening. From practical tips to comprehensive guides, we support you in all your green adventures.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="potager.html">Vegetable Garden</a></li>
+                        <li><a href="plantes-interieur.html">Indoor Plants</a></li>
+                        <li><a href="fleurs.html">Flowers & Garden</a></li>
+                        <li><a href="astuces.html">Tips & Advice</a></li>
+                        <li><a href="problems.html">Problems & Solutions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Follow Us</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/igardening" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="#" target="_blank">Instagram</a></li>
+                        <li><a href="#" target="_blank">Pinterest</a></li>
+                        <li><a href="#" target="_blank">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 iGardening.co - All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js"></script>
+</body>
+</html>
