@@ -227,6 +227,16 @@ ul { list-style: none; }
     transform: translateY(0);
 }
 
+/* Ensure article body and critical sections are always visible */
+.article-body.animate-on-scroll,
+.article-tags.animate-on-scroll,
+.article-share.animate-on-scroll,
+.related-articles.animate-on-scroll,
+.newsletter.animate-on-scroll {
+    opacity: 1;
+    transform: none;
+}
+
 /* ===== Top Bar ===== */
 .top-bar {
     background: linear-gradient(90deg, var(--green-800), var(--green-900));
