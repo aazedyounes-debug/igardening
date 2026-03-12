@@ -105,6 +105,70 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // ===== Newsletter Popup =====
+    const nlDismissed = localStorage.getItem('nl_popup_dismissed');
+    if (!nlDismissed) {
+        setTimeout(() => {
+            // Detect language
+            const lang = document.documentElement.lang || 'fr';
+            const texts = {
+                fr: {
+                    title: 'Rejoignez la communauté iGardening !',
+                    desc: 'Recevez chaque semaine nos meilleurs conseils de jardinage, guides saisonniers et astuces exclusives directement dans votre boîte mail.',
+                    btn: "S'inscrire à la newsletter",
+                    skip: 'Non merci, peut-être plus tard'
+                },
+                en: {
+                    title: 'Join the iGardening community!',
+                    desc: 'Get our best gardening tips, seasonal guides and exclusive tricks delivered to your inbox every week.',
+                    btn: 'Subscribe to the newsletter',
+                    skip: 'No thanks, maybe later'
+                },
+                es: {
+                    title: '¡Únete a la comunidad iGardening!',
+                    desc: 'Recibe cada semana nuestros mejores consejos de jardinería, guías estacionales y trucos exclusivos directamente en tu correo.',
+                    btn: 'Suscribirse al boletín',
+                    skip: 'No gracias, quizás más tarde'
+                }
+            };
+            const t = texts[lang] || texts.fr;
+
+            const overlay = document.createElement('div');
+            overlay.className = 'nl-popup-overlay';
+            overlay.innerHTML = `
+                <div class="nl-popup">
+                    <button class="nl-popup-close" aria-label="Fermer">&times;</button>
+                    <div class="nl-popup-body">
+                        <div class="nl-icon">🌱</div>
+                        <h2>${t.title}</h2>
+                        <p>${t.desc}</p>
+                        <a href="https://newsletter.igardening.co/" target="_blank" rel="noopener" class="nl-btn">${t.btn}</a>
+                        <button class="nl-skip">${t.skip}</button>
+                    </div>
+                </div>`;
+            document.body.appendChild(overlay);
+
+            requestAnimationFrame(() => {
+                requestAnimationFrame(() => overlay.classList.add('active'));
+            });
+
+            const closePopup = () => {
+                overlay.classList.remove('active');
+                localStorage.setItem('nl_popup_dismissed', Date.now());
+                setTimeout(() => overlay.remove(), 400);
+            };
+
+            overlay.querySelector('.nl-popup-close').addEventListener('click', closePopup);
+            overlay.querySelector('.nl-skip').addEventListener('click', closePopup);
+            overlay.querySelector('.nl-btn').addEventListener('click', () => {
+                localStorage.setItem('nl_popup_dismissed', Date.now());
+            });
+            overlay.addEventListener('click', (e) => {
+                if (e.target === overlay) closePopup();
+            });
+        }, 5000);
+    }
+
     // ===== Image lazy loading fallback =====
     if (!('loading' in HTMLImageElement.prototype)) {
         const lazyImages = document.querySelectorAll('img[loading="lazy"]');
