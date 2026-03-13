@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://igardening.co/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pages FR -->
+  <url><loc>https://igardening.co/pages/potager.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/plantes-interieur.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/fleurs.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/astuces.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/problems.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/shop.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/pages/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://igardening.co/pages/terms.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+
+  <!-- Pages EN -->
+  <url><loc>https://igardening.co/en/pages/potager.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/plantes-interieur.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/fleurs.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/astuces.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/problems.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/shop.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/en/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/en/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/en/pages/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://igardening.co/en/pages/terms.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+
+  <!-- Pages ES -->
+  <url><loc>https://igardening.co/es/pages/potager.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/plantes-interieur.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/fleurs.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/astuces.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/problems.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/shop.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://igardening.co/es/pages/about.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/es/pages/contact.html</loc><changefreq>monthly</changefreq><priority>0.5</priority></url>
+  <url><loc>https://igardening.co/es/pages/privacy.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+  <url><loc>https://igardening.co/es/pages/terms.html</loc><changefreq>monthly</changefreq><priority>0.3</priority></url>
+
+  <!-- Articles FR - Potager -->
+  <url><loc>https://igardening.co/articles/potager/cultiver-tomates-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/potager/herbes-aromatiques-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/potager/potager-en-carre.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/potager/compostage-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/potager/cultiver-fraisiers-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/potager/cultiver-courgettes-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles FR - Fleurs -->
+  <url><loc>https://igardening.co/articles/fleurs/roses-entretien-taille.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/fleurs/jardin-fleurs-sauvages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/fleurs/bulbes-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/fleurs/jardin-papillons.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/fleurs/hortensias-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/fleurs/lavande-cultiver-entretenir.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles FR - Plantes Intérieur -->
+  <url><loc>https://igardening.co/articles/plantes-interieur/entretien-monstera.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/plantes-interieur/plantes-depolluantes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/plantes-interieur/succulentes-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/plantes-interieur/plantes-suspendues.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/plantes-interieur/ficus-elastica-caoutchouc.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/plantes-interieur/pothos-guide-entretien.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles FR - Astuces -->
+  <url><loc>https://igardening.co/articles/astuces/preparer-jardin-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/astuces/engrais-naturels-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/astuces/jardinage-balcon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/astuces/arrosage-automatique-diy.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/astuces/permaculture-debutant-principes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles FR - Problems -->
+  <url><loc>https://igardening.co/articles/problems/pucerons-solutions-naturelles.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/problems/maladies-plantes-interieur.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/problems/mildiou-tomates-traitement.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/articles/problems/limaces-escargots-solutions.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles EN - Potager -->
+  <url><loc>https://igardening.co/en/articles/potager/cultiver-tomates-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/potager/herbes-aromatiques-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/potager/potager-en-carre.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/potager/compostage-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/potager/cultiver-fraisiers-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/potager/cultiver-courgettes-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles EN - Fleurs -->
+  <url><loc>https://igardening.co/en/articles/fleurs/roses-entretien-taille.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/fleurs/jardin-fleurs-sauvages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/fleurs/bulbes-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/fleurs/jardin-papillons.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/fleurs/hortensias-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/fleurs/lavande-cultiver-entretenir.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles EN - Plantes Intérieur -->
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/entretien-monstera.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/plantes-depolluantes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/succulentes-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/plantes-suspendues.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/ficus-elastica-caoutchouc.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/plantes-interieur/pothos-guide-entretien.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles EN - Astuces -->
+  <url><loc>https://igardening.co/en/articles/astuces/preparer-jardin-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/astuces/engrais-naturels-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/astuces/jardinage-balcon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/astuces/arrosage-automatique-diy.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/astuces/permaculture-debutant-principes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles EN - Problems -->
+  <url><loc>https://igardening.co/en/articles/problems/pucerons-solutions-naturelles.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/problems/maladies-plantes-interieur.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/problems/mildiou-tomates-traitement.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/en/articles/problems/limaces-escargots-solutions.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles ES - Potager -->
+  <url><loc>https://igardening.co/es/articles/potager/cultiver-tomates-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/potager/herbes-aromatiques-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/potager/potager-en-carre.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/potager/compostage-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/potager/cultiver-fraisiers-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/potager/cultiver-courgettes-debutants.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles ES - Fleurs -->
+  <url><loc>https://igardening.co/es/articles/fleurs/roses-entretien-taille.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/fleurs/jardin-fleurs-sauvages.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/fleurs/bulbes-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/fleurs/jardin-papillons.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/fleurs/hortensias-guide-complet.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/fleurs/lavande-cultiver-entretenir.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles ES - Plantes Intérieur -->
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/entretien-monstera.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/plantes-depolluantes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/succulentes-guide.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/plantes-suspendues.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/ficus-elastica-caoutchouc.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/plantes-interieur/pothos-guide-entretien.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles ES - Astuces -->
+  <url><loc>https://igardening.co/es/articles/astuces/preparer-jardin-printemps.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/astuces/engrais-naturels-maison.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/astuces/jardinage-balcon.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/astuces/arrosage-automatique-diy.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/astuces/permaculture-debutant-principes.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+  <!-- Articles ES - Problems -->
+  <url><loc>https://igardening.co/es/articles/problems/pucerons-solutions-naturelles.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/problems/maladies-plantes-interieur.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/problems/mildiou-tomates-traitement.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://igardening.co/es/articles/problems/limaces-escargots-solutions.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+
+</urlset>
