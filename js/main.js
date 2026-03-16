@@ -97,12 +97,38 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // ===== Mobile dropdown toggle (click instead of hover) =====
+    document.querySelectorAll('.nav-dropdown > a').forEach(dropdownLink => {
+        dropdownLink.addEventListener('click', (e) => {
+            if (window.innerWidth <= 768) {
+                e.preventDefault();
+                const parent = dropdownLink.parentElement;
+                // Close other open dropdowns
+                document.querySelectorAll('.nav-dropdown.open').forEach(d => {
+                    if (d !== parent) d.classList.remove('open');
+                });
+                parent.classList.toggle('open');
+            }
+        });
+    });
+
     // ===== Close mobile menu on link click =====
     document.querySelectorAll('.nav > a, .dropdown-content a').forEach(link => {
         link.addEventListener('click', () => {
             if (mainNav) mainNav.classList.remove('active');
             if (menuToggle) menuToggle.classList.remove('active');
+            document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
         });
+    });
+
+    // ===== Close mobile menu when clicking outside =====
+    document.addEventListener('click', (e) => {
+        if (mainNav && mainNav.classList.contains('active') &&
+            !mainNav.contains(e.target) && !menuToggle.contains(e.target)) {
+            mainNav.classList.remove('active');
+            menuToggle.classList.remove('active');
+            document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
+        }
     });
 
     // ===== Newsletter Popup =====

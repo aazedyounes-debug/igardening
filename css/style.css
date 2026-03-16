@@ -1865,24 +1865,75 @@ ul { list-style: none; }
     .nav.active {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: fixed;
         top: 70px;
         left: 0;
         right: 0;
+        bottom: 0;
         background: white;
-        border-bottom: 1px solid var(--border);
-        padding: 16px;
+        padding: 0;
         box-shadow: var(--shadow-lg);
+        overflow-y: auto;
+        z-index: 999;
+        animation: fadeIn 0.3s ease;
+    }
+
+    .nav.active > a,
+    .nav.active > .nav-dropdown > a {
+        padding: 14px 20px;
+        font-size: 1rem;
+        border-bottom: 1px solid var(--border);
+        border-radius: 0;
     }
 
     .nav-dropdown .dropdown-content {
         position: static;
         box-shadow: none;
-        padding-left: 16px;
+        padding-left: 0;
+        display: none;
+        background: var(--bg-light);
+    }
+
+    .nav-dropdown.open .dropdown-content {
         display: block;
     }
 
+    .nav-dropdown .dropdown-content a {
+        padding: 12px 20px 12px 40px;
+        border-bottom: 1px solid var(--border);
+        font-size: 0.9rem;
+    }
+
+    .nav-dropdown > a::after {
+        content: '›' !important;
+        position: absolute !important;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%) rotate(90deg);
+        width: auto !important;
+        height: auto !important;
+        background: none !important;
+        font-size: 1.2rem;
+        color: var(--text-secondary);
+        transition: transform 0.3s ease;
+        left: auto !important;
+    }
+
+    .nav-dropdown.open > a::after {
+        transform: translateY(-50%) rotate(-90deg);
+    }
+
     .menu-toggle { display: flex; }
+
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(4px, 4px);
+    }
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(4px, -4px);
+    }
 
     .hero { padding: 60px 0; }
     .hero .container { grid-template-columns: 1fr; gap: 40px; }
