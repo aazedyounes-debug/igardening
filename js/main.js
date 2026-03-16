@@ -9,9 +9,36 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchBar = document.getElementById('searchBar');
 
     if (menuToggle && mainNav) {
+        const closeMenu = () => {
+            mainNav.classList.remove('active');
+            menuToggle.classList.remove('active');
+            document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
+        };
+
         menuToggle.addEventListener('click', () => {
-            mainNav.classList.toggle('active');
-            menuToggle.classList.toggle('active');
+            const isOpen = !mainNav.classList.contains('active');
+            if (isOpen) {
+                mainNav.classList.add('active');
+                menuToggle.classList.add('active');
+            } else {
+                closeMenu();
+            }
+        });
+
+        // Close on link click (not dropdown parents)
+        mainNav.addEventListener('click', (e) => {
+            const link = e.target.closest('a');
+            if (link && !link.parentElement.classList.contains('nav-dropdown')) {
+                closeMenu();
+            }
+        });
+
+        // Close when clicking outside
+        document.addEventListener('click', (e) => {
+            if (mainNav.classList.contains('active') &&
+                !mainNav.contains(e.target) && !menuToggle.contains(e.target)) {
+                closeMenu();
+            }
         });
     }
 
@@ -112,24 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // ===== Close mobile menu on link click =====
-    document.querySelectorAll('.nav > a, .dropdown-content a').forEach(link => {
-        link.addEventListener('click', () => {
-            if (mainNav) mainNav.classList.remove('active');
-            if (menuToggle) menuToggle.classList.remove('active');
-            document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
-        });
-    });
-
-    // ===== Close mobile menu when clicking outside =====
-    document.addEventListener('click', (e) => {
-        if (mainNav && mainNav.classList.contains('active') &&
-            !mainNav.contains(e.target) && !menuToggle.contains(e.target)) {
-            mainNav.classList.remove('active');
-            menuToggle.classList.remove('active');
-            document.querySelectorAll('.nav-dropdown.open').forEach(d => d.classList.remove('open'));
-        }
-    });
+    // (Close mobile menu handlers are now inside the menuToggle block above)
 
     // ===== Newsletter Popup =====
     const nlDismissed = localStorage.getItem('nl_popup_dismissed');
