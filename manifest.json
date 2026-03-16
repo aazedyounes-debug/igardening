@@ -1,0 +1,19 @@
+{
+  "name": "iGardening - Conseils & Guides de Jardinage",
+  "short_name": "iGardening",
+  "description": "Votre guide complet pour le jardinage. Astuces, conseils pratiques, guides pour potager, plantes d'intérieur et fleurs.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2d5016",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "lang": "fr",
+  "categories": ["lifestyle", "education"]
+}
