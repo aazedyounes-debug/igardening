@@ -1,3 +1,8 @@
 .vercel
 .claude/
 screenshot*.png
+node_modules/
+convert-webp.js
+convert-img-to-picture.js
+package.json
+package-lock.json

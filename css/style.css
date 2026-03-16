@@ -1,3 +1,5 @@
+picture { display: contents; }
+
 /* ===== Newsletter Popup ===== */
 .nl-popup-overlay {
     position: fixed;
