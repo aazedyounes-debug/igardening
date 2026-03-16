@@ -611,6 +611,84 @@
     <priority>0.7</priority>
   </url>
 
+  <!-- fleurs-comestibles-jardin -->
+  <url>
+    <loc>https://igardening.co/articles/fleurs/fleurs-comestibles-jardin.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/articles/fleurs/fleurs-comestibles-jardin.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/fleurs/fleurs-comestibles-jardin.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/fleurs-comestibles-jardin.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- vivaces-floraison-ete -->
+  <url>
+    <loc>https://igardening.co/articles/fleurs/vivaces-floraison-ete.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/vivaces-floraison-ete.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/articles/fleurs/vivaces-floraison-ete.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/vivaces-floraison-ete.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/fleurs/vivaces-floraison-ete.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/vivaces-floraison-ete.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/vivaces-floraison-ete.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- pivoines-guide-complet -->
+  <url>
+    <loc>https://igardening.co/articles/fleurs/pivoines-guide-complet.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/pivoines-guide-complet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/articles/fleurs/pivoines-guide-complet.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/pivoines-guide-complet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/fleurs/pivoines-guide-complet.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/fleurs/pivoines-guide-complet.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/fleurs/pivoines-guide-complet.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- ==================== ARTICLES - PLANTES INTERIEUR ==================== -->
 
   <!-- entretien-monstera -->
