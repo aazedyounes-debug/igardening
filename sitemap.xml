@@ -161,31 +161,6 @@
     <priority>0.8</priority>
   </url>
 
-  <!-- search -->
-  <url>
-    <loc>https://igardening.co/pages/search.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/search.html"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/pages/search.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/search.html"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/pages/search.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/search.html"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/search.html"/>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
 
   <!-- ==================== SHOP PAGES ==================== -->
 

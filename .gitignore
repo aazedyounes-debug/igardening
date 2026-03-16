@@ -6,3 +6,15 @@ convert-webp.js
 convert-img-to-picture.js
 package.json
 package-lock.json
+
+# Original product images with long names (copies with simple names are tracked)
+images/site/Arrosoir Design*
+images/site/Coffret Graines*
+images/site/Fourche de Jardin*
+images/site/Gants de Jardinage*
+images/site/Genouill*
+images/site/Kit Arrosage*
+images/site/Kit Outils*
+images/site/NACNO Seed Starter Kit with*
+images/site/Pulv*risateur*
+images/site/Tablier de Jardinage*
