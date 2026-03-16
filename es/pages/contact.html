@@ -273,7 +273,7 @@
                 <!-- Contact Form -->
                 <div class="contact-form-wrapper">
                     <h2>Envianos un mensaje</h2>
-                    <form id="contactForm" action="#" method="post">
+                    <form id="contact-form">
                         <div class="form-group">
                             <label for="name">Nombre completo *</label>
                             <input type="text" id="name" name="name" placeholder="Tu nombre y apellido" required>
@@ -379,5 +379,22 @@
 
     <script src="../../js/main.js"></script>
     <script src="/js/cookie-consent.js"></script>
+    <script>
+    document.getElementById('contact-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var subject = document.getElementById('subject');
+        var subjectText = subject.options[subject.selectedIndex].text;
+        var message = document.getElementById('message').value;
+        var body = 'Nombre: ' + name + '\nEmail: ' + email + '\n\n' + message;
+        var mailto = 'mailto:contact@igardening.co?subject=' + encodeURIComponent(subjectText) + '&body=' + encodeURIComponent(body);
+        window.location.href = mailto;
+        var msg = document.createElement('div');
+        msg.style.cssText = 'background:#e8f5e9;color:#2e7d32;padding:16px;border-radius:8px;text-align:center;margin-top:16px;font-weight:600;';
+        msg.textContent = 'Tu cliente de correo se abrira con el mensaje. Si no ocurre nada, envia un email directamente a contact@igardening.co';
+        this.parentNode.appendChild(msg);
+    });
+    </script>
 </body>
 </html>
