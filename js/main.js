@@ -202,6 +202,11 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.addEventListener('click', (e) => {
                 if (e.target === overlay) closePopup();
             });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closePopup();
+            });
+            overlay.querySelector('.nl-popup').setAttribute('role', 'dialog');
+            overlay.querySelector('.nl-popup').setAttribute('aria-modal', 'true');
         }, 5000);
     }
 

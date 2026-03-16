@@ -12,6 +12,8 @@
     <meta name="keywords" content="contact iGardening, nous contacter, question jardinage, partenariat">
     <meta property="og:title" content="Contact - iGardening">
     <meta property="og:description" content="Contactez l'équipe iGardening pour toute question ou suggestion.">
+    <meta property="og:image" content="https://igardening.co/images/site/vibrant-garden.jpeg">
+    <meta name="twitter:image" content="https://igardening.co/images/site/vibrant-garden.jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact - iGardening">
     <meta name="twitter:description" content="Contactez l'équipe iGardening pour toute question ou suggestion.">
@@ -244,7 +246,7 @@
         <div class="search-bar" id="searchBar">
             <div class="container">
                 <form action="search.html" method="get">
-                    <input type="search" name="q" placeholder="Rechercher un article, une plante, un conseil...">
+                    <input type="search" name="q" aria-label="Rechercher" placeholder="Rechercher un article, une plante, un conseil...">
                     <button type="submit">Rechercher</button>
                 </form>
             </div>
@@ -393,8 +395,8 @@
         var mailto = 'mailto:contact@igardening.co?subject=' + encodeURIComponent(subjectText) + '&body=' + encodeURIComponent(body);
         window.location.href = mailto;
         var msg = document.createElement('div');
-        msg.style.min.cssText = 'background:#e8f5e9;color:#2e7d32;padding:16px;border-radius:8px;text-align:center;margin-top:16px;font-weight:600;';
-        msg.textContent = 'Votre client email va s\'ouvrir avec le message. Si rien ne se passe, envoyez directement un email a contact@igardening.co';
+        msg.style.cssText = 'background:#e8f5e9;color:#2e7d32;padding:16px;border-radius:8px;text-align:center;margin-top:16px;font-weight:600;';
+        msg.textContent = 'Votre client de messagerie va s\'ouvrir avec le message. Si rien ne se passe, envoyez directement un e-mail à contact@igardening.co';
         this.parentNode.appendChild(msg);
     });
     </script>

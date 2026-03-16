@@ -12,6 +12,8 @@
     <meta name="keywords" content="contact iGardening, contact us, gardening question, partnership">
     <meta property="og:title" content="Contact - iGardening">
     <meta property="og:description" content="Contact the iGardening team for any question or suggestion.">
+    <meta property="og:image" content="https://igardening.co/images/site/vibrant-garden.jpeg">
+    <meta name="twitter:image" content="https://igardening.co/images/site/vibrant-garden.jpeg">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contact - iGardening">
     <meta name="twitter:description" content="Contact the iGardening team for any question or suggestion.">
@@ -244,7 +246,7 @@
         <div class="search-bar" id="searchBar">
             <div class="container">
                 <form action="search.html" method="get">
-                    <input type="search" name="q" placeholder="Search for an article, a plant, a tip...">
+                    <input type="search" name="q" aria-label="Search" placeholder="Search for an article, a plant, a tip...">
                     <button type="submit">Search</button>
                 </form>
             </div>
@@ -393,7 +395,7 @@
         var mailto = 'mailto:contact@igardening.co?subject=' + encodeURIComponent(subjectText) + '&body=' + encodeURIComponent(body);
         window.location.href = mailto;
         var msg = document.createElement('div');
-        msg.style.min.cssText = 'background:#e8f5e9;color:#2e7d32;padding:16px;border-radius:8px;text-align:center;margin-top:16px;font-weight:600;';
+        msg.style.cssText = 'background:#e8f5e9;color:#2e7d32;padding:16px;border-radius:8px;text-align:center;margin-top:16px;font-weight:600;';
         msg.textContent = 'Your email client will open with the message. If nothing happens, please send an email directly to contact@igardening.co';
         this.parentNode.appendChild(msg);
     });
