@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="google-adsense-account" content="ca-pub-3972168030077539">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page introuvable - iGardening</title>
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        .error-page {
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        .error-content {
+            max-width: 600px;
+        }
+        .error-code {
+            font-family: 'Playfair Display', serif;
+            font-size: 8rem;
+            font-weight: 700;
+            color: var(--primary, #2d5016);
+            line-height: 1;
+            margin-bottom: 1rem;
+        }
+        .error-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: #333;
+            margin-bottom: 1rem;
+        }
+        .error-text {
+            font-family: 'Inter', sans-serif;
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        .error-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .error-btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-family: 'Inter', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+        .error-btn-primary {
+            background: var(--primary, #2d5016);
+            color: #fff;
+        }
+        .error-btn-primary:hover {
+            background: #1e3a0f;
+            transform: translateY(-2px);
+        }
+        .error-btn-secondary {
+            background: #f0f0f0;
+            color: #333;
+        }
+        .error-btn-secondary:hover {
+            background: #e0e0e0;
+            transform: translateY(-2px);
+        }
+        .error-illustration {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div class="error-content">
+            <div class="error-illustration">🌱</div>
+            <div class="error-code">404</div>
+            <h1 class="error-title">Cette page n'a pas germé...</h1>
+            <p class="error-text">
+                La page que vous cherchez semble avoir été déracinée ou n'existe pas encore.
+                Pas de panique, votre jardin préféré est toujours là !
+            </p>
+            <div class="error-links">
+                <a href="/" class="error-btn error-btn-primary">Retour à l'accueil</a>
+                <a href="/pages/potager.html" class="error-btn error-btn-secondary">Explorer le potager</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Auto-detect language and redirect
+        const path = window.location.pathname;
+        if (path.startsWith('/en/')) {
+            document.querySelector('.error-title').textContent = "This page hasn't sprouted...";
+            document.querySelector('.error-text').textContent = "The page you're looking for seems to have been uprooted or doesn't exist yet. Don't worry, your favorite garden is still here!";
+            document.querySelector('.error-btn-primary').textContent = 'Back to Home';
+            document.querySelector('.error-btn-primary').href = '/en/';
+            document.querySelector('.error-btn-secondary').textContent = 'Explore the Garden';
+            document.querySelector('.error-btn-secondary').href = '/en/pages/potager.html';
+        } else if (path.startsWith('/es/')) {
+            document.querySelector('.error-title').textContent = 'Esta página no ha germinado...';
+            document.querySelector('.error-text').textContent = 'La página que buscas parece haber sido desarraigada o aún no existe. ¡No te preocupes, tu jardín favorito sigue aquí!';
+            document.querySelector('.error-btn-primary').textContent = 'Volver al inicio';
+            document.querySelector('.error-btn-primary').href = '/es/';
+            document.querySelector('.error-btn-secondary').textContent = 'Explorar el huerto';
+            document.querySelector('.error-btn-secondary').href = '/es/pages/potager.html';
+        }
+    </script>
+</body>
+</html>
