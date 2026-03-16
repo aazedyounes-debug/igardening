@@ -57,6 +57,17 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://igardening.co/es/"},
+    {"@type": "ListItem", "position": 2, "name": "Huerto y Verduras", "item": "https://igardening.co/es/pages/potager.html"},
+    {"@type": "ListItem", "position": 3, "name": "Huerto en Cuadro"}
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Top Bar -->
@@ -141,7 +152,10 @@
 
     <!-- Article Hero -->
     <section class="article-hero article-hero-with-img">
-        <img class="hero-bg-img" src="../../../images/site/potager-carre.png" alt="Huerto en cuadro elevado" loading="eager">
+        <picture>
+          <source srcset="../../../images/site/potager-carre.webp" type="image/webp">
+          <img class="hero-bg-img" src="../../../images/site/potager-carre.png" alt="Huerto en cuadro elevado" loading="eager">
+        </picture>
         <div class="container">
             <span class="article-category">Huerto y Verduras</span>
             <h1>Crear un Huerto en Cuadro: Guia Paso a Paso</h1>

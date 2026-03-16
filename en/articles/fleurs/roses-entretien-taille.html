@@ -57,6 +57,17 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://igardening.co/en/"},
+    {"@type": "ListItem", "position": 2, "name": "Flowers & Garden", "item": "https://igardening.co/en/pages/fleurs.html"},
+    {"@type": "ListItem", "position": 3, "name": "The Art of Pruning and Caring for Your Roses"}
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Top Bar -->
@@ -142,7 +153,10 @@
 
     <!-- Article Hero -->
     <section class="article-hero article-hero-with-img">
-        <img class="hero-bg-img" src="../../../images/site/roses.jpeg" alt="Roses blooming in a garden" loading="eager">
+        <picture>
+          <source srcset="../../../images/site/roses.webp" type="image/webp">
+          <img class="hero-bg-img" src="../../../images/site/roses.jpeg" alt="Roses blooming in a garden" loading="eager">
+        </picture>
         <div class="container">
             <span class="article-category">Flowers & Garden</span>
             <h1>The Art of Pruning and Caring for Your Roses</h1>

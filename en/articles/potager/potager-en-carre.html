@@ -57,6 +57,17 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://igardening.co/en/"},
+    {"@type": "ListItem", "position": 2, "name": "Vegetable Garden", "item": "https://igardening.co/en/pages/potager.html"},
+    {"@type": "ListItem", "position": 3, "name": "Square Foot Garden"}
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Top Bar -->
@@ -141,7 +152,10 @@
 
     <!-- Article Hero -->
     <section class="article-hero article-hero-with-img">
-        <img class="hero-bg-img" src="../../../images/site/potager-carre.png" alt="Raised square foot garden" loading="eager">
+        <picture>
+          <source srcset="../../../images/site/potager-carre.webp" type="image/webp">
+          <img class="hero-bg-img" src="../../../images/site/potager-carre.png" alt="Raised square foot garden" loading="eager">
+        </picture>
         <div class="container">
             <span class="article-category">Vegetable Garden</span>
             <h1>Creating a Square Foot Garden: Step by Step Guide</h1>

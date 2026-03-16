@@ -59,6 +59,17 @@
   }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://igardening.co/es/"},
+    {"@type": "ListItem", "position": 2, "name": "Consejos", "item": "https://igardening.co/es/pages/astuces.html"},
+    {"@type": "ListItem", "position": 3, "name": "Preparar el Jardin para la Primavera"}
+  ]
+}
+</script>
 </head>
 <body>
     <!-- Top Bar -->
@@ -146,7 +157,10 @@
 
     <!-- Article Hero -->
     <section class="article-hero article-hero-with-img">
-        <img class="hero-bg-img" src="../../../images/site/garden-flower-border.png" alt="Jardin en primavera" loading="eager">
+        <picture>
+          <source srcset="../../../images/site/garden-flower-border.webp" type="image/webp">
+          <img class="hero-bg-img" src="../../../images/site/garden-flower-border.png" alt="Jardin en primavera" loading="eager">
+        </picture>
         <div class="container">
             <span class="article-category">Consejos</span>
             <h1>10 Pasos para Preparar tu Jardin en Primavera</h1>
