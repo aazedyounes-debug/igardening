@@ -224,4 +224,28 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         lazyImages.forEach(img => imgObserver.observe(img));
     }
+
+    // ===== Auto Table of Contents =====
+    const articleBody = document.querySelector('.article-body');
+    if (articleBody) {
+        const headings = articleBody.querySelectorAll('h2');
+        if (headings.length >= 3) {
+            const toc = document.createElement('nav');
+            toc.className = 'article-toc';
+            toc.innerHTML = '<h3>Sommaire</h3>';
+            const list = document.createElement('ol');
+            headings.forEach((heading, i) => {
+                const id = 'section-' + (i + 1);
+                heading.id = id;
+                const li = document.createElement('li');
+                const a = document.createElement('a');
+                a.href = '#' + id;
+                a.textContent = heading.textContent;
+                li.appendChild(a);
+                list.appendChild(li);
+            });
+            toc.appendChild(list);
+            articleBody.insertBefore(toc, articleBody.firstChild);
+        }
+    }
 });
