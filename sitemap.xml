@@ -162,6 +162,32 @@
   </url>
 
 
+  <!-- calendrier -->
+  <url>
+    <loc>https://igardening.co/pages/calendrier</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/calendrier"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/pages/calendrier</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/calendrier"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/pages/calendrier</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/pages/calendrier"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/pages/calendrier"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
   <!-- ==================== SHOP PAGES ==================== -->
 
   <url>
