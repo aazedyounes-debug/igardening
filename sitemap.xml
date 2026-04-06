@@ -444,26 +444,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://igardening.co/es/articles/potager/cultiver-fraisiers-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-fraisiers-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-fraisiers-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-fraisiers-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
   <!-- cultiver-courgettes-debutants -->
   <url>
     <loc>https://igardening.co/articles/potager/cultiver-courgettes-debutants</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-courgettes-debutants"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-courgettes-debutants"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-courgettes-debutants"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/potager/cultiver-courgettes-debutants</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-courgettes-debutants"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-courgettes-debutants"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-courgettes-debutants"/>
@@ -1176,14 +1159,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/es/articles/potager/cultiver-oignons-echalotes</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-oignons-echalotes"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-oignons-echalotes"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-oignons-echalotes"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/potager/cultiver-haricots-verts</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-haricots-verts"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-haricots-verts"/>
@@ -1192,39 +1167,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/en/articles/potager/cultiver-haricots-verts</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-haricots-verts"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-haricots-verts"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-haricots-verts"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/potager/cultiver-haricots-verts</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-haricots-verts"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-haricots-verts"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-haricots-verts"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/potager/cultiver-concombres-cornichons</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-concombres-cornichons"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-concombres-cornichons"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-concombres-cornichons"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/potager/cultiver-concombres-cornichons</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-concombres-cornichons"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-concombres-cornichons"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-concombres-cornichons"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/potager/cultiver-concombres-cornichons</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/potager/cultiver-concombres-cornichons"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/potager/cultiver-concombres-cornichons"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/potager/cultiver-concombres-cornichons"/>
@@ -1272,31 +1215,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/es/articles/plantes-interieur/fougeres-interieur-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/fougeres-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/fougeres-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/fougeres-interieur-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/plantes-interieur/palmiers-interieur-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/plantes-interieur/palmiers-interieur-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/palmiers-interieur-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/plantes-interieur/palmiers-interieur-guide</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/palmiers-interieur-guide"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/palmiers-interieur-guide"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/palmiers-interieur-guide"/>
@@ -1312,39 +1231,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/en/articles/plantes-interieur/bonsai-debutant-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/plantes-interieur/bonsai-debutant-guide</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/bonsai-debutant-guide"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/plantes-interieur/orchidees-guide-entretien</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/plantes-interieur/orchidees-guide-entretien</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/orchidees-guide-entretien"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/plantes-interieur/orchidees-guide-entretien</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/orchidees-guide-entretien"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/orchidees-guide-entretien"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/orchidees-guide-entretien"/>
@@ -1416,14 +1303,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/es/articles/astuces/jardiner-avec-la-lune</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/jardiner-avec-la-lune"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/jardiner-avec-la-lune"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/jardiner-avec-la-lune"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/astuces/economiser-eau-jardin</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/economiser-eau-jardin"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/economiser-eau-jardin"/>
@@ -1432,39 +1311,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/en/articles/astuces/economiser-eau-jardin</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/economiser-eau-jardin"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/economiser-eau-jardin"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/economiser-eau-jardin"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/astuces/economiser-eau-jardin</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/economiser-eau-jardin"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/economiser-eau-jardin"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/economiser-eau-jardin"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/astuces/hotel-insectes-pollinisateurs</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/astuces/hotel-insectes-pollinisateurs</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/hotel-insectes-pollinisateurs"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/astuces/hotel-insectes-pollinisateurs</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/hotel-insectes-pollinisateurs"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/hotel-insectes-pollinisateurs"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/hotel-insectes-pollinisateurs"/>
@@ -1512,31 +1359,7 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/es/articles/problems/mauvaises-herbes-methodes-naturelles</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/mauvaises-herbes-methodes-naturelles"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/mauvaises-herbes-methodes-naturelles"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/mauvaises-herbes-methodes-naturelles"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/problems/oidium-prevention-traitement</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/oidium-prevention-traitement"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/oidium-prevention-traitement"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/oidium-prevention-traitement"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/problems/oidium-prevention-traitement</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/oidium-prevention-traitement"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/oidium-prevention-traitement"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/oidium-prevention-traitement"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/problems/oidium-prevention-traitement</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/oidium-prevention-traitement"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/oidium-prevention-traitement"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/oidium-prevention-traitement"/>
@@ -1552,22 +1375,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/en/articles/problems/mouches-blanches-aleurodes</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/mouches-blanches-aleurodes"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/mouches-blanches-aleurodes"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/mouches-blanches-aleurodes"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/problems/mouches-blanches-aleurodes</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/mouches-blanches-aleurodes"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/mouches-blanches-aleurodes"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/mouches-blanches-aleurodes"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/articles/problems/gel-proteger-plantes-hiver</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/gel-proteger-plantes-hiver"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/gel-proteger-plantes-hiver"/>
@@ -1575,20 +1382,4 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://igardening.co/en/articles/problems/gel-proteger-plantes-hiver</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/gel-proteger-plantes-hiver"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/gel-proteger-plantes-hiver"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/gel-proteger-plantes-hiver"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/es/articles/problems/gel-proteger-plantes-hiver</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/problems/gel-proteger-plantes-hiver"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/problems/gel-proteger-plantes-hiver"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/problems/gel-proteger-plantes-hiver"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-</urlset>
+  </urlset>
