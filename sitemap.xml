@@ -1382,4 +1382,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  </urlset>
+    <url>
+    <loc>https://igardening.co/articles/potager/semis-avril-que-planter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/articles/astuces/engrais-compost-the-guide</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/articles/potager/tomates-cerises-pot-balcon</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/articles/problems/pucerons-coccinelles-lutte-bio</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
