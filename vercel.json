@@ -1,13 +1,6 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/ads.txt",
-      "destination": "https://srv.adstxtmanager.com/19390/igardening.co",
-      "statusCode": 301
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
