@@ -840,14 +840,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://igardening.co/en/articles/plantes-interieur/pothos-guide-entretien</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/pothos-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/pothos-guide-entretien"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/plantes-interieur/pothos-guide-entretien"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://igardening.co/es/articles/plantes-interieur/pothos-guide-entretien</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/plantes-interieur/pothos-guide-entretien"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/plantes-interieur/pothos-guide-entretien"/>
@@ -1288,14 +1280,6 @@
   </url>
   <url>
     <loc>https://igardening.co/articles/astuces/jardiner-avec-la-lune</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/jardiner-avec-la-lune"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/jardiner-avec-la-lune"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/jardiner-avec-la-lune"/>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://igardening.co/en/articles/astuces/jardiner-avec-la-lune</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://igardening.co/articles/astuces/jardiner-avec-la-lune"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://igardening.co/en/articles/astuces/jardiner-avec-la-lune"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://igardening.co/es/articles/astuces/jardiner-avec-la-lune"/>

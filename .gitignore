@@ -6,8 +6,6 @@ convert-webp.js
 convert-img-to-picture.js
 package.json
 package-lock.json
-pinterest-pins/
-generate-pins.js
 
 # Original product images with long names (copies with simple names are tracked)
 images/site/Arrosoir Design*
