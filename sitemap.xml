@@ -1416,4 +1416,24 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://igardening.co/en/articles/potager/plantes-aphrodisiaques-jardin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/potager/plantes-aphrodisiaques-jardin</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/articles/astuces/aliments-jardin-stimulent-desir</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/astuces/aliments-jardin-stimulent-desir</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>
