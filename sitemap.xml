@@ -1372,6 +1372,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://igardening.co/articles/potager/semis-mai-que-planter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/en/articles/potager/semis-mai-que-planter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://igardening.co/es/articles/potager/semis-mai-que-planter</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://igardening.co/articles/astuces/engrais-compost-the-guide</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
